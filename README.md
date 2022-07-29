@@ -17,6 +17,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ## Overview
 - This is a 3-column preview card component challenge on Frontend Mentor aimed at helping newbie developers get familiar with layouts.
+
 ### The challenge
 
 Users should be able to:
@@ -26,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/Screenshot-3-column-preview-card-component.jpg)
+![screenshot](./images/Screenshot-3-column-preview-card-component.jpg)
 
 ### Links
 
-- Solution URL: [](https://github.com/Akinyemi4/3-column-preview-card-component-main-akinyemi4)
-- Live Site URL: [](https://3-column-preview-card-component-main-akinyemi4.netlify.app/)
+- Solution URL: [Soluion URL](https://github.com/Akinyemi4/3-column-preview-card-component-main-akinyemi4)
+- Live Site URL: [Live Site URL](https://3-column-preview-card-component-main-akinyemi4.netlify.app/)
 
 ### Built with
 
