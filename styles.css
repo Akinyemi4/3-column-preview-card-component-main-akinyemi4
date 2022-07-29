@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+html {
+    font-size: 15px;
+}
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* max-height: 100vh; */
+}
+.container {
+    max-width: 375px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* border-radius: 5px; */
+    /* overflow: hidden; */
+}
+section {
+    padding: 30px 40px;
+    /* border-radius: 5px; */
+}
+.Sedan-section {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.Suvs-section {
+    background-color: hsl(184, 100%, 22%);
+} 
+.luxury-section {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.icon {
+    margin-bottom: 24px;
+}
+.primary-heading {
+    font-family: 'Big Shoulders Display', cursive;
+    margin-bottom: 40px;
+}
+.main-paragraph {
+    width: 237px;
+    margin-bottom: 32px;
+    line-height: 24px;
+}
+.primary-heading, .main-paragraph {
+    color: #fff;
+}
+.cta-btn,
+.cta-btn:link,
+.cta-btn:visited {
+    font-family: inherit;
+
+    border: none;
+    background-color: #fff;
+    padding: 12px 24px;
+    border-radius: 50px;
+
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.cta-btn:hover,
+.cta-btn:active {
+    /* border: 2px solid #fff; */
+    box-shadow: inset 0 0 0 2px #fff;
+    background-color: transparent;
+    color: #fff;
+}
+.cta-btn-sedan {
+    color: hsl(31, 77%, 52%);
+}
+.cta-btn-suvs {
+    color: hsl(184, 100%, 22%);
+}
+.cta-btn-luxury {
+    color: hsl(179, 100%, 13%);
+}
+
+@media (min-width: 1200px) {
+    body {
+        min-height: 100vh;
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    section {
+        height: 500px;
+    }
+    .main-paragraph {
+        width: 200px;
+        margin-bottom: 120px;
+        line-height: 28px;
+    }
+    .Sedan-section {
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 0px;
+
+    }
+    .luxury-section {
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 0px;
+    }
+}
